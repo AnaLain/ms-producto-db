@@ -35,7 +35,7 @@ public class ProductoServiceimp implements ProductoServicio {
     }
 
     @Override
-    public Producto encontrarProducto(Producto producto) {
+    public Producto encontraProducto(Producto producto) {
         // TODO Auto-generated method stub
         
     }

@@ -14,13 +14,13 @@ public class Producto implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-        @Id 
-        @GeneratedValue(strategy = GenerationType.IDENTITY)
-        private int idProducto;
-        private String nomprod;
-        private String marca;
-        private int valor;
-        private int cantidad;
-        private int idcategoria;
-        
+    @Id 
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int idProducto;
+    private String nomprod;
+    private String marca;
+    private int valor;
+    private int cantidad;
+    private int idcategoria;
+    
 }
